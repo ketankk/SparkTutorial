@@ -1,14 +1,14 @@
 package in.kuari.spark_tutorial;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
-public class SubTopic extends AppCompatActivity {
+public class SubTopic extends Activity {
 
     private WebView webView;
     private String topic;
