@@ -8,6 +8,7 @@ import android.webkit.WebView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
+
 public class SubTopic extends Activity {
 
     private WebView webView;
@@ -24,7 +25,7 @@ Intent intent=getIntent();
         webView= (WebView) findViewById(R.id.webId);
         String url="file:///android_asset/Spark Programming Guide - Spark 1.6.1 Documentation.html#"+topic;
             webView.loadUrl(url);
-        loadAd();
+       loadAd();
 
     }
     private void loadAd(){

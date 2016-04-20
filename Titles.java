@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -27,7 +28,7 @@ public class Titles extends Activity {
         titleList = (ListView) findViewById(R.id.titleList);
 
         populateListView();
-        loadAd();
+       loadAd();
     }
 private void loadAd(){
     AdView adView= (AdView) findViewById(R.id.adTit);
